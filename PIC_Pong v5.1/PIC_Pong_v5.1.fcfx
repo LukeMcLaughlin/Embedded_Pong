@@ -1,0 +1,683 @@
+<root>
+<document scada='0' schema='102' license='1,,' title='' description='' fcversion='524802' target='PIC.16F.16F1937' >
+	<config data='!0,fe2!10,1eff%0,2%3,0%5,1%6,1%7,1%8,1%9,3%b,1%c,0%d,0%10,3%14,3%18,0%19,1%1a,1%1c,1%1d,0' clkspd='19660800' simspd='6' usewdt='0' constif='0' Use3V3='0' />
+	<plugins >
+		<dll_models enabled='1' />
+	</plugins>
+	<supplement use='0' head='' body='' />
+	<debug >
+		<watch expr='$PORTA' />
+		<watch expr='$PORTB' />
+		<watch expr='DIR_CHECK' />
+		<watch expr='GAME_DELAY' />
+		<watch expr='GAME_RATE' />
+		<watch expr='HOLD_CHECK' />
+		<watch expr='LED_POS' />
+		<watch expr='REBOUND_CHECK' />
+		<watch expr='SCORER' />
+		<watch expr='SCORE_LEFT' />
+		<watch expr='SCORE_RIGHT' />
+	</debug>
+	<traces />
+	<ghost >
+		<FK2 >
+			<data name='FK2D0' port='4294967295' pin='4294967295' />
+			<data name='FK2D1' port='4294967295' pin='4294967295' />
+			<data name='FK2D2' port='4294967295' pin='4294967295' />
+			<data name='FK2D3' port='4294967295' pin='4294967295' />
+			<data name='FK2D4' port='4294967295' pin='4294967295' />
+			<data name='FK2D5' port='4294967295' pin='4294967295' />
+			<data name='FK2D6' port='4294967295' pin='4294967295' />
+			<data name='FK2D7' port='4294967295' pin='4294967295' />
+			<data name='FK2D8' port='4294967295' pin='4294967295' />
+			<data name='FK2D9' port='4294967295' pin='4294967295' />
+			<data name='FK2D10' port='4294967295' pin='4294967295' />
+			<data name='FK2D11' port='4294967295' pin='4294967295' />
+			<data name='FK2D12' port='4294967295' pin='4294967295' />
+			<data name='FK2D13' port='4294967295' pin='4294967295' />
+			<data name='FK2D14' port='4294967295' pin='4294967295' />
+			<data name='FK2D15' port='4294967295' pin='4294967295' />
+			<data name='FK2A0' port='4294967295' pin='4294967295' />
+			<data name='FK2A1' port='4294967295' pin='4294967295' />
+			<data name='FK2A2' port='4294967295' pin='4294967295' />
+			<data name='FK2A3' port='4294967295' pin='4294967295' />
+			<data name='FK2A4' port='4294967295' pin='4294967295' />
+			<data name='FK2A5' port='4294967295' pin='4294967295' />
+		</FK2>
+		<ICD >
+			<data name='AnalogPrescaleValue' value='19' />
+			<data name='DigitalSampleRate' value='100000' />
+			<data name='BreakpointCount' value='8' />
+			<data name='CallStackDepthCount' value='8' />
+			<data name='ClockPort' value='1' />
+			<data name='ClockPin' value='6' />
+			<data name='DataPort' value='1' />
+			<data name='DataPin' value='7' />
+			<data name='UseDefaultPins' value='1' />
+			<data name='WrapEnabled' value='1' />
+			<data name='CommsDelayOverridden' value='0' />
+			<data name='CommsDelay' value='9' />
+			<data name='CalculatedCommsDelay' value='9' />
+			<data name='AnalogEB2PrescaleValue' value='2' />
+			<data name='DigitalEB2SampleRate' value='100000' />
+		</ICD>
+		<pins >
+			<digital A='0' B='0' C='0' D='0' E='0' F='0' G='0' H='0' I='0' J='0' K='0' L='0' M='0' N='0' O='0' P='0' Q='0' R='0' S='0' T='0' U='0' V='0' W='0' X='0' Y='0' Z='0' />
+			<analog A='0' B='0' C='0' D='0' E='0' F='0' G='0' H='0' I='0' J='0' K='0' L='0' M='0' N='0' O='0' P='0' Q='0' R='0' S='0' T='0' U='0' V='0' W='0' X='0' Y='0' Z='0' />
+		</pins>
+	</ghost>
+	<components >
+		<settings autoimg='1' center='1' unitscale='0' fixedscale='0' fixedx='1' fixedy='1' fixedz='1' headcode='0' />
+		<definition guid='3493e960-d2d4-4ae7-9e71-f65fbadea423' vstate='40' vmin='0' vmaj='1' srcleaf='' visiblename='' description='' category='' catenable='1' author='' manuname='' manucode='' sysinfo='0' keywords='' dynamic='1' scadaCompatible='0' embeddedCompatible='1' iconpath='' />
+		<component class_type='root' codename='panel' x='0' y='0' z='0' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='0' poslock='0' >
+			<resources />
+			<properties />
+			<values />
+			<events />
+			<apis />
+			<variables >
+				<variable public='0' >
+					<def class_type='variable' name='GAME_DELAY' type='s16' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='false' type='b1' description='' isconst='1' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='SCORE_LEFT' type='s16' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='HOLD_CHECK_C' type='b1' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='HOLD_CHECK_B' type='b1' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='HOLD_CHECK_A' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='REBOUND_CHECK' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='DIR_CHECK' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='GAME_RATE' type='s16' description='' isconst='0' isinit='1' usrinit='1' setinit='1' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='LED_POS' type='u8' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='SCORER' type='b1' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='SCORE_RIGHT' type='s16' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='true' type='b1' description='' isconst='1' isinit='1' usrinit='1' setinit='1' />
+				</variable>
+			</variables>
+			<macros >
+				<macro >
+					<flowline name='LeftWinCheck' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='loop' title='LEFT WIN CELEBRATION' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' type='2' exp='4' >
+							<flowline >
+								<command class_type='output' title='Output' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='0' />
+								<command class_type='delay' title='Delay' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' exp='150' type='1' />
+								<command class_type='output' title='Output' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='128' />
+								<command class_type='delay' title='Delay' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' exp='150' type='1' />
+								<command class_type='calculation' title='Calculation' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' >
+									<exp exp='LED_POS = 128' />
+								</command>
+								<command class_type='loop' title='Loop' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' type='2' exp='3' >
+									<flowline >
+										<command class_type='calculation' title='Calculation' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' >
+											<exp exp='LED_POS = LED_POS &gt;&gt; 1' />
+										</command>
+										<command class_type='output' title='Output' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='LED_POS' />
+										<command class_type='delay' title='Delay' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' exp='150' type='1' />
+									</flowline>
+								</command>
+								<command class_type='output' title='Output' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='0' />
+							</flowline>
+						</command>
+						<command class_type='delay' title='Delay' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' exp='2' type='2' />
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='WaitAfterLeft' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='loop' title='WAIT FOR NEW ROUND' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' type='0' exp='$PORTA != 1' >
+							<flowline />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' >
+							<exp exp='DIR_CHECK = 1' />
+							<exp exp='GAME_RATE = 1' />
+							<exp exp='HOLD_CHECK_A = 0' />
+							<exp exp='HOLD_CHECK_B = 0' />
+							<exp exp='HOLD_CHECK_C = 0' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='WaitAfterRight' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='loop' title='WAIT FOR NEW ROUND' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' type='0' exp='$PORTA != 32' >
+							<flowline />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' >
+							<exp exp='DIR_CHECK = 0' />
+							<exp exp='GAME_RATE = 1' />
+							<exp exp='HOLD_CHECK_A = 0' />
+							<exp exp='HOLD_CHECK_B = 0' />
+							<exp exp='HOLD_CHECK_C = 0' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='RightWinCheck' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='loop' title='RIGHT WIN CELEBRATION' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' type='2' exp='4' >
+							<flowline >
+								<command class_type='output' title='Output' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='0' />
+								<command class_type='delay' title='Delay' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' exp='150' type='1' />
+								<command class_type='output' title='Output' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='1' />
+								<command class_type='delay' title='Delay' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' exp='150' type='1' />
+								<command class_type='calculation' title='Calculation' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' >
+									<exp exp='LED_POS = 1' />
+								</command>
+								<command class_type='loop' title='Loop' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' type='2' exp='3' >
+									<flowline >
+										<command class_type='calculation' title='Calculation' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' >
+											<exp exp='LED_POS = LED_POS &lt;&lt; 1' />
+										</command>
+										<command class_type='output' title='Output' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='LED_POS' />
+										<command class_type='delay' title='Delay' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' exp='150' type='1' />
+									</flowline>
+								</command>
+								<command class_type='output' title='Output' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='0' />
+							</flowline>
+						</command>
+						<command class_type='delay' title='Delay' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' exp='2' type='2' />
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='WaitTest' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='loop' title='WAIT FOR NEW ROUND' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' type='0' exp='1' >
+							<flowline >
+								<command class_type='decision' title='Decision' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' exp='$PORTA != 0' swap='0' >
+									<flowline >
+										<command class_type='calculation' title='Calculation' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' >
+											<exp exp='GAME_RATE = 1' />
+											<exp exp='HOLD_CHECK_A = 0' />
+										</command>
+										<command class_type='switch' title='Switch' textarea='36,25,36,25' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' exp='$PORTA' >
+											<case >
+												<flowline />
+											</case>
+											<case exp='1' >
+												<flowline >
+													<command class_type='calculation' title='Calculation' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' >
+														<exp exp='DIR_CHECK = 1' />
+													</command>
+												</flowline>
+											</case>
+											<case exp='32' >
+												<flowline >
+													<command class_type='calculation' title='Calculation' cmdcolor='49152' cmdcolor_sec='6618980' cmdAuto_color='1' cmdcustom_color='1' >
+														<exp exp='DIR_CHECK = 0' />
+													</command>
+												</flowline>
+											</case>
+										</command>
+										<command class_type='interrupt' title='Interrupt' disable='1' cmdcolor='17151' cmdcolor_sec='355583' enable='1' name='' call='' >
+											<settings timer='0' prescale='-1' postscale='-1' rollover='-1' bitcount='0' trigger='3' maskhi='--------------------------------------------------------------------------------------------------------------------------------------------------------------------------8' masklo='--------------------------------------------------------------------------------------------------------------------------------------------------------------------------8' >
+												<option value='0' />
+												<option value='0' />
+												<option value='0' />
+												<option value='0' />
+												<option value='0' />
+												<option value='0' />
+												<option value='0' />
+												<option value='0' />
+											</settings>
+										</command>
+									</flowline>
+									<flowline />
+								</command>
+							</flowline>
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='Main' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='label' title='Connection Point' cmdcolor='65535' cmdcolor_sec='6619135' cmdAuto_color='1' cmdcustom_color='1' labelid='0' labelname='Game Start' />
+						<command class_type='calculation' title='Calculation' cmdcolor='65535' cmdcolor_sec='6619135' cmdAuto_color='1' cmdcustom_color='1' >
+							<exp exp='SCORE_LEFT = 0' />
+							<exp exp='SCORE_RIGHT = 0' />
+							<exp exp='DIR_CHECK = 0' />
+							<exp exp='GAME_RATE = 1' />
+						</command>
+						<command class_type='loop' title='INITIAL LOOP' cmdcolor='65535' cmdcolor_sec='6619135' cmdAuto_color='1' cmdcustom_color='1' type='0' exp='$PORTA = 0' >
+							<flowline >
+								<command class_type='output' title='Output' cmdcolor='65535' cmdcolor_sec='6619135' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='16' />
+								<command class_type='delay' title='Delay' cmdcolor='65535' cmdcolor_sec='6619135' cmdAuto_color='1' cmdcustom_color='1' exp='250' type='1' />
+								<command class_type='output' title='Output' cmdcolor='65535' cmdcolor_sec='6619135' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='8' />
+								<command class_type='delay' title='Delay' cmdcolor='65535' cmdcolor_sec='6619135' cmdAuto_color='1' cmdcustom_color='1' exp='250' type='1' />
+							</flowline>
+						</command>
+						<command class_type='label' title='Connection Point' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' labelid='1' labelname='Round Start' />
+						<command class_type='loop' title='Main Game Loop' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' type='0' exp='1' >
+							<flowline >
+								<command class_type='calculation' title='Calculation' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+									<exp exp='GAME_DELAY = 500 / GAME_RATE' />
+								</command>
+								<command class_type='switch' title='Game Direction' textarea='36,25,36,25' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='DIR_CHECK' >
+									<case >
+										<flowline />
+									</case>
+									<case exp='0' >
+										<flowline >
+											<command class_type='comment' title='' comment='Left to Right' textarea='12,0,12,0' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' />
+											<command class_type='calculation' title='Calculation' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+												<exp exp='LED_POS = 128' />
+											</command>
+											<command class_type='output' title='Output' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='LED_POS' />
+											<command class_type='loop' title='Loop' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' type='0' exp='LED_POS != 0' >
+												<flowline >
+													<command class_type='calculation' title='SHIFT LED RIGHT' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+														<exp exp='LED_POS = LED_POS &gt;&gt; 1' />
+													</command>
+													<command class_type='switch' title='Switch' textarea='36,25,36,25' cmdcolor='12615680' cmdcolor_sec='15376912' exp='LED_POS' >
+														<case >
+															<flowline />
+														</case>
+														<case exp='1' >
+															<flowline >
+																<command class_type='decision' title='CHECK IF BUTTON IS HELD' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='$PORTA = 1' swap='0' >
+																	<flowline >
+																		<command class_type='calculation' title='SET REBOUND CHECK LOGICAL TRUE' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+																			<exp exp='HOLD_CHECK_A = 1' />
+																		</command>
+																	</flowline>
+																	<flowline />
+																</command>
+															</flowline>
+														</case>
+														<case exp='0' >
+															<flowline >
+																<command class_type='decision' title='CHECK IF BUTTON IS HELD' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='$PORTA = 1' swap='0' >
+																	<flowline >
+																		<command class_type='calculation' title='SET REBOUND CHECK LOGICAL TRUE' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+																			<exp exp='HOLD_CHECK_B = 1' />
+																		</command>
+																	</flowline>
+																	<flowline />
+																</command>
+															</flowline>
+														</case>
+													</command>
+													<command class_type='decision' title='CHECK IF BUTTON IS HELD' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='(HOLD_CHECK_A = 1) &amp;&amp; (HOLD_CHECK_B = 1)' swap='0' >
+														<flowline >
+															<command class_type='calculation' title='SET REBOUND CHECK LOGICAL TRUE' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+																<exp exp='HOLD_CHECK_C = 1' />
+															</command>
+														</flowline>
+														<flowline />
+													</command>
+													<command class_type='delay' title='Delay' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='GAME_DELAY' type='1' />
+													<command class_type='output' title='Output' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='LED_POS' />
+													<command class_type='decision' title='Decision' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='(HOLD_CHECK_C = 0) &amp; (LED_POS = 0) &amp; ($PORTA = 1)' swap='0' >
+														<flowline >
+															<command class_type='calculation' title='Rebound' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+																<exp exp='DIR_CHECK = 1' />
+																<exp exp='GAME_RATE = GAME_RATE + 1' />
+																<exp exp='HOLD_CHECK_A = 0' />
+																<exp exp='HOLD_CHECK_B = 0' />
+																<exp exp='HOLD_CHECK_C = 0' />
+															</command>
+														</flowline>
+														<flowline >
+															<command class_type='decision' title='Decision' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='(LED_POS = 0)' swap='0' >
+																<flowline >
+																	<command class_type='loop' title='LEFT SCORE CELEBRATION' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' type='2' exp='4' >
+																		<flowline >
+																			<command class_type='output' title='Output' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='240' />
+																			<command class_type='delay' title='Delay' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='300' type='1' />
+																			<command class_type='output' title='Output' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='0' />
+																			<command class_type='delay' title='Delay' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='300' type='1' />
+																		</flowline>
+																	</command>
+																	<command class_type='calculation' title='Calculation' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+																		<exp exp='SCORE_LEFT = SCORE_LEFT + 1' />
+																	</command>
+																	<command class_type='decision' title='Decision' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='SCORE_LEFT = 5' swap='0' >
+																		<flowline >
+																			<command class_type='call' title='Call Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='LeftWinCheck' />
+																			<command class_type='goto' title='Goto Connection Point' cmdcolor='65535' cmdcolor_sec='6619135' cmdAuto_color='1' cmdcustom_color='1' labelid='0' labelname='' />
+																		</flowline>
+																		<flowline >
+																			<command class_type='call' title='Call Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='WaitAfterLeft' />
+																			<command class_type='goto' title='Goto Connection Point' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' labelid='1' labelname='' />
+																		</flowline>
+																	</command>
+																</flowline>
+																<flowline />
+															</command>
+														</flowline>
+													</command>
+												</flowline>
+											</command>
+										</flowline>
+									</case>
+									<case exp='1' >
+										<flowline >
+											<command class_type='comment' title='' comment='Right to Left' textarea='12,0,12,0' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' />
+											<command class_type='calculation' title='Calculation' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+												<exp exp='LED_POS = 1' />
+											</command>
+											<command class_type='output' title='Output' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='LED_POS' />
+											<command class_type='loop' title='Loop' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' type='0' exp='LED_POS != 0' >
+												<flowline >
+													<command class_type='calculation' title='SHIFT PORTB RIGHT' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+														<exp exp='LED_POS = LED_POS &lt;&lt; 1' />
+													</command>
+													<command class_type='switch' title='Switch' textarea='36,25,36,25' cmdcolor='12615680' cmdcolor_sec='15376912' exp='LED_POS' >
+														<case >
+															<flowline />
+														</case>
+														<case exp='128' >
+															<flowline >
+																<command class_type='decision' title='CHECK IF BUTTON IS HELD' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='$PORTA = 32' swap='0' >
+																	<flowline >
+																		<command class_type='calculation' title='SET REBOUND CHECK LOGICAL TRUE' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+																			<exp exp='HOLD_CHECK_A = 1' />
+																		</command>
+																	</flowline>
+																	<flowline />
+																</command>
+															</flowline>
+														</case>
+														<case exp='0' >
+															<flowline >
+																<command class_type='decision' title='CHECK IF BUTTON IS HELD' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='$PORTA = 32' swap='0' >
+																	<flowline >
+																		<command class_type='calculation' title='SET REBOUND CHECK LOGICAL TRUE' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+																			<exp exp='HOLD_CHECK_B = 1' />
+																		</command>
+																	</flowline>
+																	<flowline />
+																</command>
+															</flowline>
+														</case>
+													</command>
+													<command class_type='decision' title='CHECK IF BUTTON IS HELD' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='(HOLD_CHECK_A = 1) &amp;&amp; (HOLD_CHECK_B = 1)' swap='0' >
+														<flowline >
+															<command class_type='calculation' title='SET REBOUND CHECK LOGICAL TRUE' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+																<exp exp='HOLD_CHECK_C = 1' />
+															</command>
+														</flowline>
+														<flowline />
+													</command>
+													<command class_type='delay' title='Delay' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='GAME_DELAY' type='1' />
+													<command class_type='output' title='Output' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='LED_POS' />
+													<command class_type='decision' title='Decision' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='(HOLD_CHECK_C = 0) &amp; (LED_POS = 0) &amp; ($PORTA = 32)' swap='0' >
+														<flowline >
+															<command class_type='calculation' title='Rebound' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+																<exp exp='DIR_CHECK = 0' />
+																<exp exp='GAME_RATE = GAME_RATE + 1' />
+																<exp exp='HOLD_CHECK_A = 0' />
+																<exp exp='HOLD_CHECK_B = 0' />
+																<exp exp='HOLD_CHECK_C = 0' />
+															</command>
+														</flowline>
+														<flowline >
+															<command class_type='decision' title='Decision' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='(LED_POS = 0)' swap='0' >
+																<flowline >
+																	<command class_type='loop' title='LEFT SCORE CELEBRATION' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' type='2' exp='4' >
+																		<flowline >
+																			<command class_type='output' title='Output' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='15' />
+																			<command class_type='delay' title='Delay' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='300' type='1' />
+																			<command class_type='output' title='Output' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' mode='0' port='1048577' mask='0' exp='0' />
+																			<command class_type='delay' title='Delay' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='300' type='1' />
+																		</flowline>
+																	</command>
+																	<command class_type='calculation' title='Calculation' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' >
+																		<exp exp='SCORE_RIGHT = SCORE_RIGHT + 1' />
+																	</command>
+																	<command class_type='decision' title='Decision' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' exp='SCORE_RIGHT = 5' swap='0' >
+																		<flowline >
+																			<command class_type='call' title='Call Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='RightWinCheck' />
+																			<command class_type='goto' title='Goto Connection Point' cmdcolor='65535' cmdcolor_sec='6619135' cmdAuto_color='1' cmdcustom_color='1' labelid='0' labelname='' />
+																		</flowline>
+																		<flowline >
+																			<command class_type='call' title='Call Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='WaitAfterRight' />
+																			<command class_type='goto' title='Goto Connection Point' cmdcolor='192' cmdcolor_sec='6579455' cmdAuto_color='1' cmdcustom_color='1' labelid='1' labelname='' />
+																		</flowline>
+																	</command>
+																</flowline>
+																<flowline />
+															</command>
+														</flowline>
+													</command>
+												</flowline>
+											</command>
+										</flowline>
+									</case>
+								</command>
+							</flowline>
+						</command>
+					</flowline>
+				</macro>
+			</macros>
+			<component class_type='ref' guid='5c1da48f-ce54-4622-bdd9-fc812e373696' vmin='1' vmaj='1' codename='sw_push_rnd_pnl1' x='10' y='-10' z='0' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='pin' data='$PORTA.5' />
+					<value target='polarity' data='000' />
+					<value target='debounce' data='10' />
+					<value target='operation' data='000' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='5c1da48f-ce54-4622-bdd9-fc812e373696' vmin='1' vmaj='1' codename='sw_push_rnd_pnl2' x='78.0264' y='-10' z='1.75' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='pin' data='$PORTA.0' />
+					<value target='polarity' data='000' />
+					<value target='debounce' data='10' />
+					<value target='operation' data='000' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='7fdaec78-394e-4ec9-a578-4f1a12a12076' vmin='1' vmaj='1' codename='led_5mm_clip1' x='10' y='-40' z='0' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='pin' data='$PORTB.7' />
+					<value target='polarity' data='001' />
+					<value target='on_color' data='16734039' />
+					<value target='show_label' data='002' />
+					<value target='label_property' data='pin' />
+					<value target='label_color' data='16777215' />
+					<value target='label_scale' data='1.000000' />
+					<value target='label_auto_scale' data='0' />
+					<value target='label_position' data='003' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='7fdaec78-394e-4ec9-a578-4f1a12a12076' vmin='1' vmaj='1' codename='led_5mm_clip2' x='20' y='-40' z='0' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='pin' data='$PORTB.6' />
+					<value target='polarity' data='001' />
+					<value target='on_color' data='16734039' />
+					<value target='show_label' data='002' />
+					<value target='label_property' data='pin' />
+					<value target='label_color' data='16777215' />
+					<value target='label_scale' data='1.000000' />
+					<value target='label_auto_scale' data='0' />
+					<value target='label_position' data='003' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='7fdaec78-394e-4ec9-a578-4f1a12a12076' vmin='1' vmaj='1' codename='led_5mm_clip3' x='30' y='-40' z='0' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='pin' data='$PORTB.5' />
+					<value target='polarity' data='001' />
+					<value target='on_color' data='16734039' />
+					<value target='show_label' data='002' />
+					<value target='label_property' data='pin' />
+					<value target='label_color' data='16777215' />
+					<value target='label_scale' data='1.000000' />
+					<value target='label_auto_scale' data='0' />
+					<value target='label_position' data='003' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='7fdaec78-394e-4ec9-a578-4f1a12a12076' vmin='1' vmaj='1' codename='led_5mm_clip4' x='40' y='-40' z='0' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='pin' data='$PORTB.4' />
+					<value target='polarity' data='001' />
+					<value target='on_color' data='16734039' />
+					<value target='show_label' data='002' />
+					<value target='label_property' data='pin' />
+					<value target='label_color' data='16777215' />
+					<value target='label_scale' data='1.000000' />
+					<value target='label_auto_scale' data='0' />
+					<value target='label_position' data='003' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='7fdaec78-394e-4ec9-a578-4f1a12a12076' vmin='1' vmaj='1' codename='led_5mm_clip5' x='50' y='-40' z='0' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='pin' data='$PORTB.3' />
+					<value target='polarity' data='001' />
+					<value target='on_color' data='16734039' />
+					<value target='show_label' data='002' />
+					<value target='label_property' data='pin' />
+					<value target='label_color' data='16777215' />
+					<value target='label_scale' data='1.000000' />
+					<value target='label_auto_scale' data='0' />
+					<value target='label_position' data='003' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='7fdaec78-394e-4ec9-a578-4f1a12a12076' vmin='1' vmaj='1' codename='led_5mm_clip6' x='60' y='-40' z='0' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='pin' data='$PORTB.2' />
+					<value target='polarity' data='001' />
+					<value target='on_color' data='16734039' />
+					<value target='show_label' data='002' />
+					<value target='label_property' data='pin' />
+					<value target='label_color' data='16777215' />
+					<value target='label_scale' data='1.000000' />
+					<value target='label_auto_scale' data='0' />
+					<value target='label_position' data='003' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='7fdaec78-394e-4ec9-a578-4f1a12a12076' vmin='1' vmaj='1' codename='led_5mm_clip7' x='70' y='-40' z='0' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='pin' data='$PORTB.1' />
+					<value target='polarity' data='001' />
+					<value target='on_color' data='16734039' />
+					<value target='show_label' data='002' />
+					<value target='label_property' data='pin' />
+					<value target='label_color' data='16777215' />
+					<value target='label_scale' data='1.000000' />
+					<value target='label_auto_scale' data='0' />
+					<value target='label_position' data='003' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='7fdaec78-394e-4ec9-a578-4f1a12a12076' vmin='1' vmaj='1' codename='led_5mm_clip8' x='80' y='-40' z='0' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='pin' data='$PORTB.0' />
+					<value target='polarity' data='001' />
+					<value target='on_color' data='16734039' />
+					<value target='show_label' data='002' />
+					<value target='label_property' data='pin' />
+					<value target='label_color' data='16777215' />
+					<value target='label_scale' data='1.000000' />
+					<value target='label_auto_scale' data='0' />
+					<value target='label_position' data='003' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+		</component>
+	</components>
+	<scadaresourcelookup />
+	<keymap />
+	<panel2d shadows='0' lighting='2' brightness='0' >
+		<background rgb='7292207' img='' style='0' />
+		<camera xe='42.3838' ye='-15.6218' ze='129.314' xt='42.3838' yt='-15.6218' zt='0' xquat='0' yquat='0' zquat='0' wquat='1' />
+	</panel2d>
+	<panel3d shadows='0' lighting='2' brightness='0' perspective='1' >
+		<background rgb='8409120' img='' style='0' />
+		<table rgb='7360576' img='' style='0' size='0' />
+		<camera xe='0' ye='0' ze='300' xt='0' yt='0' zt='0' xquat='0' yquat='0' zquat='0' wquat='1' />
+		<camerakey0 xe='0' ye='0' ze='300' xt='0' yt='0' zt='0' xquat='0' yquat='0' zquat='0' wquat='1' />
+		<camerakey1 xe='-3.67394e-14' ye='0' ze='-300' xt='0' yt='0' zt='0' xquat='0' yquat='1' zquat='0' wquat='6.12323e-17' />
+		<camerakey2 xe='0' ye='-300' ze='6.66134e-14' xt='0' yt='0' zt='0' xquat='-0.707107' yquat='0' zquat='0' wquat='0.707107' />
+		<camerakey3 xe='-3.67394e-14' ye='300' ze='6.66134e-14' xt='0' yt='0' zt='0' xquat='-4.32978e-17' yquat='0.707107' zquat='0.707107' wquat='4.32978e-17' />
+		<camerakey4 xe='-300' ye='-6.66134e-14' ze='6.66134e-14' xt='0' yt='0' zt='0' xquat='-0.5' yquat='0.5' zquat='0.5' wquat='0.5' />
+		<camerakey5 xe='300' ye='-6.66134e-14' ze='6.66134e-14' xt='0' yt='0' zt='0' xquat='-0.5' yquat='-0.5' zquat='-0.5' wquat='0.5' />
+		<camerakey6 xe='-173.205' ye='-173.205' ze='173.205' xt='0' yt='0' zt='0' xquat='-0.424708' yquat='0.17592' zquat='0.339851' wquat='0.820473' />
+	</panel3d>
+	<layout >
+		<view type='0' name='Main' mode='0' placement='LAAAAAAAAAABAAAA---------------------wUAAAAYAAAAvAYAAH4DAAA' zoom='70' scrollx='101' scrolly='1590' flags='0' />
+		<view type='0' name='WaitAfterLeft' mode='0' placement='LAAAAAAAAAABAAAA---------------------wUAAAAYAAAAvAYAAH4DAAA' zoom='75' scrollx='0' scrolly='0' flags='0' />
+		<view type='0' name='RightWinCheck' mode='0' placement='LAAAAAAAAAABAAAA---------------------wUAAAAYAAAAvAYAAH4DAAA' zoom='60' scrollx='0' scrolly='17' flags='0' />
+		<view type='0' name='LeftWinCheck' mode='0' placement='LAAAAAAAAAABAAAA---------------------wUAAAAYAAAAvAYAAH4DAAA' zoom='75' scrollx='0' scrolly='0' flags='0' />
+		<view type='0' name='WaitAfterRight' mode='0' placement='LAAAAAAAAAABAAAA---------------------wUAAAAYAAAAvAYAAH4DAAA' zoom='75' scrollx='0' scrolly='0' flags='0' />
+	</layout>
+</document>
+</root>
