@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Sun Jan 24 01:09:29 2021
+# Process ID: 3156
+# Current directory: C:/Users/lukem/Desktop/FPGA_Pong v2.3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17844 C:\Users\lukem\Desktop\FPGA_Pong v2.3\FPGA_Pong.xpr
+# Log file: C:/Users/lukem/Desktop/FPGA_Pong v2.3/vivado.log
+# Journal file: C:/Users/lukem/Desktop/FPGA_Pong v2.3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/lukem/Desktop/FPGA_Pong v2.3/FPGA_Pong.xpr}
+update_compile_order -fileset sources_1
+open_run impl_1

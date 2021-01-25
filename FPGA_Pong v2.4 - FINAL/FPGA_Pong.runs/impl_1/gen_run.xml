@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tsbg484-1" LaunchTime="1611591206">
+  <File Type="BITSTR-BMM" Name="FPGA_Pong_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="FPGA_Pong_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="FPGA_Pong_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="FPGA_Pong_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="FPGA_Pong.tcl"/>
+  <File Type="OPT-TIMING" Name="FPGA_Pong_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="FPGA_Pong_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="FPGA_Pong_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="FPGA_Pong_reports.tcl"/>
+  <File Type="OPT-DRC" Name="FPGA_Pong_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="FPGA_Pong.hwdef"/>
+  <File Type="PWROPT-DCP" Name="FPGA_Pong_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="FPGA_Pong_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="FPGA_Pong_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="FPGA_Pong_placed.dcp"/>
+  <File Type="PLACE-IO" Name="FPGA_Pong_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="FPGA_Pong_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="FPGA_Pong_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="FPGA_Pong_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="FPGA_Pong_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="FPGA_Pong_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="FPGA_Pong_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="FPGA_Pong_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="FPGA_Pong_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="FPGA_Pong.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="FPGA_Pong_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="FPGA_Pong_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="FPGA_Pong_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="FPGA_Pong.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="FPGA_Pong_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="FPGA_Pong_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="FPGA_Pong_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="FPGA_Pong_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="FPGA_Pong_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="FPGA_Pong_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="FPGA_Pong_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="FPGA_Pong.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="FPGA_Pong_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="FPGA_Pong_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="FPGA_Pong_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="FPGA_Pong_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="FPGA_Pong_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="FPGA_Pong_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="FPGA_Pong_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="FPGA_Pong_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="FPGA_Pong_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="FPGA_Pong_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="FPGA_Pong_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="FPGA_Pong_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="FPGA_Pong_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="FPGA_Pong_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="FPGA_Pong_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="FPGA_Pong_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="FPGA_Pong_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="FPGA_Pong_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="FPGA_Pong_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="FPGA_Pong_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="FPGA_Pong_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="FPGA_Pong.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="FPGA_Pong_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="FPGA_Pong.rbt"/>
+  <File Type="BITSTR-NKY" Name="FPGA_Pong.nky"/>
+  <File Type="PDI-FILE" Name="FPGA_Pong.pdi"/>
+  <File Type="RCFI_FILE" Name="FPGA_Pong.rcfi"/>
+  <File Type="CFI_FILE" Name="FPGA_Pong.cfi"/>
+  <File Type="RNPI_FILE" Name="FPGA_Pong.rnpi"/>
+  <File Type="NPI_FILE" Name="FPGA_Pong.npi"/>
+  <File Type="RBD_FILE" Name="FPGA_Pong.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="FPGA_Pong.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="FPGA_Pong.sysdef"/>
+  <File Type="BG-BGN" Name="FPGA_Pong.bgn"/>
+  <File Type="BG-DRC" Name="FPGA_Pong.drc"/>
+  <File Type="RDI-RDI" Name="FPGA_Pong.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/FPGA_Pong.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="FPGA_Pong"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
